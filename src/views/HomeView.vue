@@ -1,7 +1,7 @@
 <template>
   <div class="home-container">    
     <GhostCard v-for="ghost in ghosts" :key="ghost.id" :ghost="ghost"/>        
-    <p>Teste</p>
+    <p>Development</p>
   </div>
 </template>
 
