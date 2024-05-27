@@ -1,0 +1,126 @@
+{
+    "information":{
+        "ghosts":[
+            {
+                "id": 1,
+                "name": "Spirit",                   
+                "evidences":["Spiritox", "Escrita Fantasma", "EMF 5"],
+                "attackSanity": "50%",
+                "tips":["Vai esperar 180 segundos depois de ter sido incensado para tentar caçar novamente, os outros fantasmas vão esperar 90 segundos."],
+                "behaviors": null,
+                "abilities":null,
+                "huntSpeed": null,
+                "huntSanity":null,
+                "evidence":null
+            },
+            {
+                "id": 2,
+                "name": "Wraith",                   
+                "evidences":["EMF 5 ", "Spiritox", "Projetor Dots"],
+                "attackSanity": "50%",
+                "tips":["Não vai tocar ou interagir com o sal.", "Não vai ser afetado pelo sal tier 3 durante as caçadas."],
+                "behaviors": null,
+                "abilities":["Pode teleportar para um jogador aleatório e deixar um EMF 2 ou EMF 5 na nova localização."],
+                "huntSpeed": null,
+                "huntSanity":null,
+                "evidence":null
+            },
+            {
+                "id": 3,
+                "name": "Phantom",                   
+                "evidences":["Spiritox", "Ultravioleta", "Projetor Dots"],
+                "attackSanity": "50%",
+                "tips":["Não vai aparecer nas fotos (incluindo no Projetor Dots", "Tirar foto do fantasma, fará com que ele desapareça.", "Tem menor visibilidade durante as caçadas.", "O jogador vai perder 0.5% de sanidade, enquanto o coração estiver batendo durante uma caçada ou evento."],
+                "behaviors": null,
+                "abilities":["Pode andar até um jogador aleatório e deixar EMF 2 na localização que ele foi."],
+                "huntSpeed": null,
+                "huntSanity":null,
+                "evidence":null
+            },
+            {
+                "id": 4,
+                "name": "Poltergeist",                   
+                "evidences":["Spiritox", "Ultravioleta", "Escrita Fantasma"],
+                "attackSanity": "50%",
+                "tips":["Pode jogar múltiplos objetos de uma só vez, diminuindo a sanidade do jogador em 2% para cada item jogado.", "Durante as caçadas, Poltergeist vai jogar um item a cada 0.5s com uma força aumentada."],
+                "behaviors": ["Maior chance de moer e interagir com objetos.", "Pode atirar objetos mais rápidos e mais longe"],
+                "abilities":null,
+                "huntSpeed": null,
+                "huntSanity":null,
+                "evidence":null
+            },
+            {
+                "id": 5,
+                "name": "Banshee",                   
+                "evidences":["Ultravioleta", "Orbe Fantasma", "Projetor Dots"],
+                "attackSanity": "50%",
+                "tips":["Banshee emite um grito no microfone parabólico.", "Se o alvo encostar no fantasma cantando durante um evento, perderá 15% de sanidade (normalmente é 10%)."],
+                "behaviors": ["Perseguirá somente seu alvo durante a caça(A menos que o alvo esteja fora do local, da casa).", "Vai andar até seu alvo sem deixar o EMF 2.", "Tentará vagar até seu alvo durante o estado DOTS.", "Tem preferência por eventos cantando."],
+                "abilities":null,
+                "huntSpeed": null,
+                "huntSanity":["Caça quando a sanidade de seu alvo está em 50% ou abaixo(mesmo se o alvo estiver fora do local), o que significa que pode caçar com uma média de 87% de sanidade quando em multiplayer."],
+                "evidence":null
+            },
+            {
+                "id": 6,
+                "name": "Jinn",                   
+                "evidences":["EMF 5 ", "Ultravioleta", "Temperatura Negativa"],
+                "attackSanity": "50%",
+                "tips":["Habilidade de diminuir em 25% a sanidade de jogadores por perto, deixando EMF 2 ou EMF 5 no disjuntor (quando estiver ligado)."],
+                "behaviors": ["Não consegue desligar o disjuntor."],
+                "abilities":null,
+                "huntSpeed": ["2.5m/s quando o disjuntor estiver ligado, possuir linha de visão (LdV), e sua distância do jogador avistado for maior que 3m, senão sua velocidade será 1.7m/s."],
+                "huntSanity":null,
+                "evidence":null
+            },
+            {
+                "id": 7,
+                "name": "Mare",                   
+                "evidences":["Spiritox", "Orbe Fantasma", "Escrita Fantasma"],
+                "attackSanity": "60%",
+                "tips":["Habilidade de imediatamente desligar uma luz que o jogador ligou(Só pode ser testada a cada 10s).", "Não consegue ligar luzes (exceto teclados e TV)."],
+                "behaviors": ["Mais chance de desligar e estourar luzes.", "Mais chance de trocar de cômodo para onde as luzes estão desligadas."],
+                "abilities":null,
+                "huntSpeed": null,
+                "huntSanity":["60% quando as luzes estão desligadas no cômodo em que o fantasma está, 40% quando ligadas."],
+                "evidence":null
+            },
+            {
+                "id": 8,
+                "name": "Revenant",                   
+                "evidences":["Orbe Fantasma", "Escrita Fantasma", "Temperatura Negativa"],
+                "attackSanity": "50%",
+                "tips": null,
+                "behaviors": null,
+                "abilities":null,
+                "huntSpeed": ["3.0m/s assim que o jogador é notado (equipamento, voz ou LDV) até que o fantasma chegou no último local conhecido do jogador e então gradualmente diminuirá a velocidade para 1m/s."],
+                "huntSanity":null,
+                "evidence":null
+            },
+            {
+                "id": 9,
+                "name": "Shade",                   
+                "evidences":["EMF 5 ", "Escrita Fantasma", "Temperatura Negativa"],
+                "attackSanity": "35%",
+                "tips":["Nunca da interações que resultem em EMF 2, 3 ou 5 com um jogador no mesmo cômodo(exceto por escrita fantasma e apagar chamas).", "Não iniciará caça quando alguém estiver no mesmo cômodo."],
+                "behaviors": ["Realiza mais eventos quando a sanidade média está baixa (não consegue realizar eventos quando a sanidade está em 100%).", "Menos probabilidade de mostrar o modelo do fantasma, mas mais provável de realizar o evento de 'névoa fantasma'", "Tem chance de aparecer em forma de sombra quando invocado pela caixa de música, pata de macaco ou círculo de invocação."],
+                "abilities":null,
+                "huntSpeed": null,
+                "huntSanity":null,
+                "evidence":null
+            },
+            {
+                "id": 10,
+                "name": "Demon",                   
+                "evidences":["Ultravioleta", "Escrita Fantasma", "Temperatura Negativa"],
+                "attackSanity": "70%",
+                "tips":["Usar incenso irá prevenir o fantasma de caçar por 60s em vez dos 90s normais.", "Mínimo de 20s de espera entre caças(normal é 25s)."],
+                "behaviors": ["Alcance de crucifixo aumentado em 50% por nível (4.5m, 6m, 7.5m respectivamente)."],
+                "abilities":null,
+                "huntSpeed": null,
+                "huntSanity":["Habilidade de caça em qualquer sanidade, normalmente caça em 70%."],
+                "evidence":null
+            }
+        ]
+    }
+}
